@@ -2,4 +2,4 @@ def convert(minutes):
 	return minutes*60
   
   
-print(convert(1)) #printing and calling function
+print(convert(1)) 		#printing and calling function
