@@ -2,4 +2,4 @@ def addition(a, b):
     return a + b
 
 
-print(addition(3, 4))       #EXAMPLE
+print(addition(3, 4))        # function calling and printing
