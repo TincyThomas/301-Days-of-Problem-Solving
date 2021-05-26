@@ -2,4 +2,4 @@ def addition(num):
     return num + 1
 
 
-print(addition(7))
+print(addition(7))                  # function calling and printing
