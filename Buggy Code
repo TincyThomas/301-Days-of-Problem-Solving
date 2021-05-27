@@ -1,0 +1,4 @@
+def cubes(a):
+	return a ** 3
+	
+cubes(3)          # Function calling and printing
