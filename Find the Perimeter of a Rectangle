@@ -1,0 +1,5 @@
+def find_perimeter(length, width):
+    return 2 * (length + width)
+
+
+print(find_perimeter(2,9))          # Function calling and Printing
