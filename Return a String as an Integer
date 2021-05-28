@@ -1,0 +1,5 @@
+def string_int(txt):
+    return int(txt)
+
+
+print(string_int("12"))           # Function calling and Printing
