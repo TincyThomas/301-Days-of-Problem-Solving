@@ -1,0 +1,6 @@
+def circuit_power(voltage, current):
+    power = voltage * current
+    print("power = ", power)
+
+
+circuit_power(23 , 10)            # Function calling and Printing
