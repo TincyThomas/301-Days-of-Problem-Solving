@@ -1,0 +1,6 @@
+def calculate_exponent(num, exp):
+    ans = num ** exp
+    print(f"{num} raised to {exp} is equal to {ans}")
+
+
+calculate_exponent(5,5)
