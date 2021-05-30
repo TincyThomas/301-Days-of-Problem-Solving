@@ -1,0 +1,6 @@
+def get_first_value(number_list):
+    print(f"first element of the given list:", end = " ")               # f-string is to output in an elegant way...end is to remove new-line.
+    return number_list[0]
+
+
+print(get_first_value([7,6,8]))                                         # Function calling, here output is 7 
