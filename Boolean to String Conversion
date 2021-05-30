@@ -1,0 +1,6 @@
+def bool_to_string(flag):
+    A = str(flag)                    # Type casting flag to string and assigning it to variable A
+    print(type(A))                   # Checking type of A
+    return A
+
+print(bool_to_string(False))         # Calling Function 
