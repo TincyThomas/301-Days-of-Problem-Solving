@@ -1,0 +1,5 @@
+def squared(a):
+    print(f"square of {a} is :", end=" ")         # f-string is to display input of function and output in an effective way... end keyword removes new-line printing
+    return a * a
+
+print(squared(7))                                 # Function calling
