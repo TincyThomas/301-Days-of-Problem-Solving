@@ -1,6 +1,6 @@
 --The Fastest Way To Learn--
 Everyone knows the fastest way to learn a spoken language is by having conversations with native speakers. Likewise, the fastest way to learn to code is by actually
-coding. Edabit offers an almost limitless supply of bite-sizedexercises, so you can rapidly advance your abilities.
+coding. Edabit offers an almost limitless supply of bite-sized exercises, so you can rapidly advance your abilities that too free of cost!!
 
 --The Easiest Way To Learn--
 Do you feel like you’re stuck between learning material that’s too easy and material that’s too hard? Once the basics are learned, you will realize everything is made for
