@@ -1,0 +1,10 @@
+def football_points(wins, draws, losses):
+    w = wins * 3                                                                 # Each win denotes gain by 3 points
+    d = draws * 1                                                                # Each draw denotes gain by 1 point
+    l = losses * 0                                                               # Each lose denote gain by 0 point
+    t = w + d + l                                                                # t variable gets sum of all points
+    print(f"Total points obtained after match seems to be", end = " ")           # f-string presents output in an elegant way...end removes new-line and returns t on same line
+    return t
+
+
+print(football_points(3,4,2))                                                    # Function calling
