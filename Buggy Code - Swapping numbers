@@ -1,0 +1,7 @@
+def swap(a, b):                               # function defination
+	c= a                                        # assigning value inside a to c .. a is being emptied
+	a = b                                       # assigning value inside b to now empty a
+	b = c                                       # assigning value inside c to b
+	return a,b                                  # return values that have been swapped in previous steps
+	
+print(swap(2,7))                              # function calling
