@@ -1,0 +1,7 @@
+def name_string(name):                                  # function defination begins
+    b = "Edabit"                          
+    result = name + b
+    return result
+
+
+print(name_string("hello"))                             # function calling
