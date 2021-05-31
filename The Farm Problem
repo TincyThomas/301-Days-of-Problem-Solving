@@ -1,0 +1,9 @@
+def animals(chickens, cows, pigs):
+    c = chickens * 2                                                # A chicken has 2 legs
+    co = cows * 4                                                   # A cow has 4 legs
+    p = pigs * 4                                                    # A pig has 4 legs
+    print(f"total number of legs equals: ", end=" ")                # f-string helps in printing total number...end removes new-line
+    return c + co + p
+
+
+print(animals(2, 3, 1))                                             # function calling
