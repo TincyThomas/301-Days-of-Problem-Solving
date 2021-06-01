@@ -1,0 +1,13 @@
+def to_int(txt):                                                                            # function which takes text and outputs integer
+    integer = int(txt)
+    print(f"input text is converted to integer version:", end = " ")
+    return integer
+
+
+def to_str(num):                                                                            # function which takes number and outputs string
+    string = str(num)
+    print(f"input number is converted to string version:", end=" ")
+    return string
+
+print(to_int("123"))
+print(to_str(456))
