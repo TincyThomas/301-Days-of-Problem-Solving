@@ -1,0 +1,6 @@
+def give_me_something(a):                                       
+    print("something", end=" ")                                         # simply printing something and end keyword is to remove new-line
+    return a                                                            # here print statement and return both are getting displayed on same line
+
+
+print(give_me_something("shuffling"))                                    # checking
