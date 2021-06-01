@@ -1,0 +1,40 @@
+obj_one = {}                                                      # Defining empty dictionary
+for i in range(3):                                                # loop to take 3 inputs for filling dictionary with keys and values
+    key = input("Name? or Phone? or Email?")                      # Taking key for obj_one
+    value = input()                                               # Taking value for obj_one for above key
+    obj_one[key] = value                                          # Assigning value to its key into dictionary
+
+obj_two = {}                                                       # Defining empty dictionary
+for i in range(3):                                                 # loop to take 3 inputs for filling dictionary with keys and values
+    key = input("Name? or Phone? or Email?")                       # Taking key for obj_two
+    value = input()                                                # Taking value for obj_two for above key
+    obj_two[key] = value                                           # Assigning value to its key into dictionary
+
+
+def is_equal(obj_one, obj_two):                                   # Defining function to check dict equality
+    if(obj_one == obj_two):                                       # check with inequality is it equal or not?
+        return True
+    return False
+
+print(is_equal(obj_one, obj_two))                                 # Checking and Printing result
+
+
+# ---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+"""                                                                                 # Remove """ from code to uncomment
+obj_one = {                                                                         # Explicitly defining key and values for Dictionary
+  "name": "Benny",
+  "phone": "3325558745",
+  "email": "benny@edabit.com"
+}
+
+obj_two = dict(name="Jason", phone="9853759720", email="jason@edabit.com")          # here dictionary is being defined using dict()
+
+def is_equal(obj_one, obj_two):                                                     # Defining function to check dict equality
+    if(obj_one == obj_two):                                                         # check with inequality is it equal or not?
+        return True
+    return False
+
+print(is_equal(obj_one, obj_two))                                                   # Checking and Printing result
+"""
