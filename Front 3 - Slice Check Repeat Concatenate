@@ -1,0 +1,5 @@
+def front3(txt):                              # Function Defination
+	a = txt[0:3]                                # Slicing and retrieving first three required characters                          
+	return a*3                                  # multiplying it three times
+
+print(front3("protip"))                       # check
