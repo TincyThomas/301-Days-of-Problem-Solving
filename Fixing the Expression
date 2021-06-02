@@ -1,0 +1,4 @@
+def is_seven(x):
+	return False if x!=7 else True                              # one-line return using if-else condition.. this will print False if not EQUAL otherwise True
+
+print(is_seven(5))
