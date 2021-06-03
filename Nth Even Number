@@ -1,0 +1,4 @@
+def nth_even(n):
+	print(f"{n}th even number is ", end ="")                            # f-string for elegant printing..end to remove new-line
+	return 2*(n-1)                                                      # Every second number is an even number, i.e. multiplication table of two
+print(nth_even(3))
