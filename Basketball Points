@@ -1,0 +1,5 @@
+def points(twopointers, threepointers):
+    return 2 * twopointers + 3 * threepointers                            # this what our question says! eee
+
+
+print( "Total Basketball points are:", points(7, 5))
