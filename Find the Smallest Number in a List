@@ -1,0 +1,12 @@
+def find_smallest_num(lst):
+    min=lst[0]                                                                      # assigning min variable with first index value
+    for i in range(0, len(lst)-1):                                                  # looping i variable in a range of from 0 to length of list minus 1
+        if min < lst[i + 1]:                                                        # checking if assigned value in min variable is smaller or not
+            pass                                                                    # pass keyword does nothing at all
+        else:
+            min = lst[i+1]                                                          # else block works when if condition fails
+    return min                                                                      # min value of list is returned
+
+
+print(find_smallest_num([7, 7, 7]))                                                 # function calling and printing
+	
