@@ -1,0 +1,6 @@
+def mod(m, n):
+    print(f"remainder of {m} by {n} is ", end= "")
+    return m % n                                                          # % operator returns the remainder of two numbers
+
+
+print(mod(-6, 3))                                                         # Function calling and printing
