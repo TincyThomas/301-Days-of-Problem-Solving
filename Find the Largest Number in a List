@@ -1,0 +1,14 @@
+def findLargestNum(nums):
+    max=nums[0]                                                         # Declaring a variable max and assigning it with the first value of list
+    for i in range(0, len(nums)-1):                                     # Looping from 0 to length minus 1 of list
+        if nums[i] > nums[i + 1]:                                       # checking if value at first index is greater than value at next subsequant list 
+            max = nums[i]                                               # if above condition is true then assigning max equal to first index
+            i = i + 1                                                   # incrementing value of i
+        else:
+            max = nums[i+1]                                             # Assigning max when else condition works
+            i = i + 1                                                   # incrementing i
+
+    return max                                                          # return maximum value of list
+
+
+print(findLargestNum([5, 7, 2 , 11,12,75]))                             # function calling and printing
