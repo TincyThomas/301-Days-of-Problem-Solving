@@ -1,0 +1,6 @@
+def total_amount_adjectives(dct):
+	d = len(dct)                                # len() calculates length of dictionary
+	return d                                    # length is returned because that is the number of values in dictionary which is the total count of adjectives required to calculate
+  
+  
+print(total_amount_adjectives({ "a": "idiot", "b": "idiot", "c": "idiot"}))
