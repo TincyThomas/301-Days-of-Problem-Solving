@@ -1,0 +1,13 @@
+def difference_max_min(lst):
+    min = lst[0]                                                                          # first value at index 0 is assigned to min
+    max = lst[0]                                                                          # first value at index 0 is assigned to max
+    for i in range(0, len(lst)-1):                                                        # looping from 0 it goes till length of list minus 1
+        if min > lst[i + 1]:                                                              # checks if assigned min value is more than value at next index 
+            min = lst[i + 1]                                                              # if more then re-assignment happens
+    for j in range(0, len(lst)-1):                                                        # looping from 0 it goes till length of list minus 1
+        if max < lst[j + 1]:                                                              # checks if assigned min value is less than value at next index
+            max = lst[j + 1]                                                              # if less then re-assignment happens
+    return max - min                                                                      # returning difference of max and min
+
+print(difference_max_min([44, 32, 86, 19]))
+
