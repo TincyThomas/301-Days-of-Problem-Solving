@@ -1,0 +1,4 @@
+def less_than_100(a, b):
+	return True if a+b<100 else False                         # this one-liner outputs if expression evaluates whether <100 or not and respectively prints True or False
+	
+print(less_than_100(2,6))                                   # function calling and printing
