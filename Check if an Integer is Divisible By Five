@@ -1,0 +1,4 @@
+def divisible_by_five(n):
+	return True if n%5==0 else False                                      # % operator returns remainder after dividing
+	
+print(divisible_by_five(5))                                             # Function calling which prints True if divisible that is modulo equals to zero
