@@ -1,0 +1,5 @@
+def get_last_item(lst):
+    return lst[len(lst) - 1]                                    # firstly calculates length of list then subtract by 1...nextly return element, at the evaluated index
+
+
+print(get_last_item([True, False, True]))                       # Function calling and checking
