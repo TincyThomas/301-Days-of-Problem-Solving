@@ -1,0 +1,5 @@
+def profitable_gamble(prob, prize, pay):
+    return True if prob * prize > pay else False                            # returns either True or False based on evaluating the given statement
+
+
+print(profitable_gamble(0.9, 1, 2))                                         # Function calling and checking
