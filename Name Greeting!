@@ -1,0 +1,6 @@
+def hello_name(name):
+    print("Hello", end=" ")                                       # prints Hello first of all ... end keyword removes new line
+    return name+"!"                                               # returns name concatenated with ! mark
+
+
+print(hello_name("Tincy"))                                        # Function calling and checking
