@@ -1,0 +1,8 @@
+def get_sum_of_elements(lst):
+    a=0                                                 # initialize variable A with 0 ... just keep it as a dummy variable
+    for i in lst:                                       # for is to loop around all elements in lst 
+        a = a + i                                       # it keeps on adding into i's value 
+    return a                                            # return total sum
+
+
+print(get_sum_of_elements([-2, 84, 23]))                # function printing and checking
