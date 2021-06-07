@@ -1,0 +1,5 @@
+def divisible(num):
+    return True if num % 100 == 0 else False                        # % operator returns remainder
+
+
+print(divisible(100000))                                            # Function calling and printing
