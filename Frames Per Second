@@ -1,0 +1,5 @@
+def frames(minutes, fps):
+  return ((60 * fps) * minutes)                       # we know 1 min equals 60 secs...so multiply fps with 60...then multiply it with minutes
+
+
+print(frames(10, 1))                                  # Function calling and Printing
