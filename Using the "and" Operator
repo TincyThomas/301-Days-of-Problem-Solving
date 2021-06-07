@@ -1,0 +1,5 @@
+def And(a, b):
+    return True if a == b else False                      # and operator works when a equals b
+
+
+print(And(True, True))                                    # Function calling and printing
