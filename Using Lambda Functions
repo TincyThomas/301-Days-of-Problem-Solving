@@ -1,0 +1,4 @@
+# create your lambda function below
+
+lambda_func = lambda x:x                                # lambda keyword is to create functions with no name
+print(lambda_func(7))                                   # calling lambda function
