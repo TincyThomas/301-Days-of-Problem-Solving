@@ -1,7 +1,7 @@
 def max_num(n1, n2):
-	if n1 > n2:
-		return n1
+	if n1 > n2:				# comparing which is greater
+		return n1			# return n1 the greatest
 	else:
-		return n2
+		return n2			# otherwise return n2 the greatest
 
-print(max_num(10,55))
+print(max_num(10,55))				# Function calling and printing
