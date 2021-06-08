@@ -1,0 +1,5 @@
+def k_to_k(n, k):
+    return True if k**k == n else False                       # returns true if expression evaluates to n
+
+
+print(k_to_k(4,2))                                            # Function calling and printing
