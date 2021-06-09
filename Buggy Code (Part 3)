@@ -1,0 +1,8 @@
+def sum_lst(lst):                                                       # look function is only calculating sum of each elements in the list
+    total =0
+    for i in range(0,len(lst)):                               
+        total =total + lst[i]
+    return total
+
+
+print(sum_lst([0, 4, 8, 12]))                                           # Function calling and printing total sum 
