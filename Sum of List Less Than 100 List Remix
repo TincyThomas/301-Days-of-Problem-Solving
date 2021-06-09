@@ -1,0 +1,8 @@
+def list_less_than_100(lst):
+    sum = 0                                                       # assigning 0 to dummy variable
+    for i in range(0, len(lst)):                                  # looping around from 0 to the length of list
+        sum = sum + lst[i]                                        # adding next element to that of previous
+    return True if sum < 100 else False                           # return True only if sum is smaller than 100
+
+
+print(list_less_than_100([10,85]))                                # Function calling and printing whether True or False
