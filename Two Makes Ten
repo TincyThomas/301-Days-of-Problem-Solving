@@ -1,0 +1,6 @@
+def makes10(a, b):
+    z=a+b                                                                                 # z is just a dummy variable to store the sum of two inputs
+    return True if a == 10 or b ==10 or z ==10 else False                                 # if any of the input or its sum is 10 then only return True
+
+
+print(makes10(11, 5))                                                                     # Function calling and printing
