@@ -1,0 +1,5 @@
+def years_in_one_house(age, moves):
+    return int(age / (moves + 1))               ''' looking at the examples it seems 1 move denotes 2 house stay, 3 moves means he stayed at 4 different houses
+                                                              it goes like moves + 1 way..int() returns in the nearest integer form'''
+
+print(years_in_one_house(80,0))                 # Function checking and calling
