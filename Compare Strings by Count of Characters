@@ -1,0 +1,7 @@
+def comp(txt1, txt2):
+    I = len(txt1)                                         # len() denotes length of txt1
+    J = len(txt2)                                         # len() denotes length of txt2
+    return True if I == J else False                      # returns True if both the length are equal
+
+
+print(comp("AB", "DE"))                                   # Function calling and printing
