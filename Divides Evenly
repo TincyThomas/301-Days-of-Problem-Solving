@@ -1,0 +1,5 @@
+def divides_evenly(a, b):
+    return True if a / b == int(a / b) else False               # dividing evenly checks whether division of a and b variables return integer or not               
+
+
+print(divides_evenly(84, 4))                                    # Function calling and printing
