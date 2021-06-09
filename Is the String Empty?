@@ -1,0 +1,5 @@
+def is_empty(s):
+    return True if s=="" else False             # s denotes input.. now if it is empty then return True
+
+
+print(is_empty(""))                             # Function calling and printing
