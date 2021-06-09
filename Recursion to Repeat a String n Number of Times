@@ -1,0 +1,5 @@
+def repetition(txt, n):
+    return txt * n                          # * operator multiplies be the input is integer or a string
+
+
+print(repetition("kiwi", 2))                # Function calling and printing
