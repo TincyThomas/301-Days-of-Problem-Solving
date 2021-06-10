@@ -1,0 +1,3 @@
+head, *tail = [1, 2, 3, 4]
+print(head)                         # head represents first element
+print(tail)                         # * before tail represents all elements after first element
