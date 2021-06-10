@@ -1,0 +1,8 @@
+# Fix this broken code!
+def check_equals(lst1, lst2):
+	if lst1 == lst2:                                                 #The == operator compares the value or equality of two objects, whereas the 
+		return True                                                        # Python is operator checks whether two variables point to the same object in memory.
+	else:
+		return False
+
+print(check_equals([4, 5, 6], [4, 5, 6]))
