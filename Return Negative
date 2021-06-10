@@ -1,0 +1,5 @@
+def return_negative(n):
+    return "-" + str(n) if n != 0 else n                # display "-" at first ... concatenation works on strings only so convert to string... if n not equal to 0 then print n
+
+
+print(return_negative(5))                               # Function calling and printing
