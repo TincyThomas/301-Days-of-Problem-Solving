@@ -1,0 +1,8 @@
+def even_or_odd(lst):
+    sum = 0                                                     # dummy initialization
+    for i in lst:                                               # looping list
+        sum = sum + i                                           # adding elements of list
+    return True if sum % 2 == 0 else False                      # True when sum is even
+
+
+print(even_or_odd([]))
