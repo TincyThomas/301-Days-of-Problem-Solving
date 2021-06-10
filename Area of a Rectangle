@@ -1,0 +1,5 @@
+def area(h, w):
+    return -1 if h * w < 1 else h * w                         # If the arguments are invalid or 0 then only return -1
+
+
+print(area(2, -2))
