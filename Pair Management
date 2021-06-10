@@ -1,0 +1,6 @@
+def make_pair(num1, num2):
+    a = num1,num2                         # arguments are given to a variable
+    return list(a)                        # list() only takes one argument
+
+
+print(make_pair(51,23))
