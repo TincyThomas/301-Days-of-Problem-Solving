@@ -1,0 +1,8 @@
+def sum_five(lst):
+    sum = 0                                                   # dummy variable to initialize 0
+    for i in lst:                                             # looping elements in list
+        if i > 5:                                             # take inside only those value of i which is more than 5
+            sum = sum+i                                       # sum every element which is more than 5
+    return sum                                                # return sum of all elements which are more than 5
+    
+print(sum_five([1, 5, 20, 30, 4, 9, 18]))                     # Function calling and printing
