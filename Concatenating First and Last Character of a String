@@ -1,0 +1,5 @@
+def first_last(name):
+    return name[0] + name[len(name)-1]              # take 0th element of name with last element of name 
+
+
+print(first_last("Tincy"))                          # Function calling and checking
