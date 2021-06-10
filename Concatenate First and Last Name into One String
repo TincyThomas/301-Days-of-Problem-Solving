@@ -1,0 +1,5 @@
+def concat_name(first_name, last_name):
+    return last_name +", " + first_name                           # + operator concatenates 
+
+
+print(concat_name("Mary", "Jane"))                                # Function calling and printing
