@@ -1,0 +1,7 @@
+def odd_or_even(word):
+    count = 0                                                   # dummy variable to initialize 0 
+    for i in word:                                              # loop inside word
+        count = count + 1                                       # increment count
+    return True if count % 2 == 0 else False                    # return True when count is even
+
+print(odd_or_even("cherrry"))                                   # function calling and printing
