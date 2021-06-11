@@ -1,0 +1,5 @@
+def inches_to_feet(inches):
+    return int(inches / 12)                 # 12 inches = 1 foot.
+
+
+print(inches_to_feet(324))                  # Function calling and printing
