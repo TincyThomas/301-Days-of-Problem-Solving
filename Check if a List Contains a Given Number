@@ -1,0 +1,8 @@
+def check(lst, el):
+    for i in lst:                 # looping elements of i
+        if i == el:               # check i equals el
+            return True
+    return False
+
+
+print(check([], 7))               # Function calling and printing
