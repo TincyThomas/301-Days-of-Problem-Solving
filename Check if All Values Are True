@@ -1,0 +1,7 @@
+def all_truthy(*args):
+    for i in args:
+        if i==0 or i==False:                      # check for 0 or False in args i.e. arguments
+            return False
+    return True
+    
+print(all_truthy(5, 4, 3, 2, 1,False))            # Function calling and printing
