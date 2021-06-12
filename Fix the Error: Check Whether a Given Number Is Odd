@@ -1,0 +1,5 @@
+def is_odd(num):
+    return num % 2 != 0                   # understand, here, numbers not divisible by 2 are all odd
+
+
+print(is_odd(-2))                         # Function calling and printing
