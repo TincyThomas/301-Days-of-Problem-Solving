@@ -1,0 +1,6 @@
+def greeting(name):
+    if name == "Mubashir":                              # checking for specific argument
+        return "Hello, my Love!"
+    return "Hello, " + name + "!"
+
+print(greeting("Tincy"))                                # Function calling and printing
