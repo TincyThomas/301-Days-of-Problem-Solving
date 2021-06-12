@@ -1,0 +1,7 @@
+def repeat_string(txt, n):
+    if type(txt)==str:                      # if the type of input is equal to string then go to next line else print not string
+        return txt * n                      # here multiply input n times
+    return "Not A String !!"
+
+
+print(repeat_string("ji", 7))               # Function calling and printing
