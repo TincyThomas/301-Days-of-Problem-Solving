@@ -1,0 +1,4 @@
+def calculator(txt):
+    return int(eval(txt))           # we have string based input inside txt... eval() calculates output of numbers which are in string format...int() turns it into integer format
+
+print(calculator("49/7*2-3"))       # Function calling and printing
