@@ -1,0 +1,7 @@
+def leap_year(year):
+    if year % 100 == 0:                             # see, 2000 or be it 1900 starting of century has two zeroes at end ...mod operator will check trailing zero
+        return year % 400 == 0                      # if it is a starting year then just check divisibility with 400
+    return year % 4 == 0                            # if it is not a starting year then just check divisibility with 4
+
+
+print(leap_year(2001))                              # Function calling and printing
