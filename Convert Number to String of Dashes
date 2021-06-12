@@ -1,0 +1,4 @@
+def num_to_dashes(num):
+	return "-"*num                    # multipling "-" num times
+
+print(num_to_dashes(5))             # Function calling and printing
