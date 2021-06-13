@@ -1,0 +1,7 @@
+# writeyourcodehere = [1, 2, 3, 4, 5, 6]
+lst = [1, 2, 3, 4, 5, 6]
+first = lst[0]                                        # list comprehension
+middle= lst[2:len(lst)-2]
+last = lst[len(lst)-1]
+
+print(first,middle, last)
