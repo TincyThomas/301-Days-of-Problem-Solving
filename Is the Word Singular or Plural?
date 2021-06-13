@@ -1,0 +1,5 @@
+def is_plural(word):
+    return True if word[len(word) - 1] == "s" else False                        # idea behind is list comprehension
+
+
+print(is_plural("changes"))
