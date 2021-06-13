@@ -1,0 +1,7 @@
+list = [1, 2, 3, 4, 5, 6, 7, 8]
+first = list[0]                                   # list comprehension
+second = list[1]
+third = list[3]
+others = list[3:]
+
+print(first,second,third,others)
