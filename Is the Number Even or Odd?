@@ -1,0 +1,5 @@
+def isEvenOrOdd(num):
+    return "even" if num % 2 == 0 else "odd"                    # if modulo with 2 outputs 0 then it is an EVEN number 
+
+
+print(isEvenOrOdd(4))
