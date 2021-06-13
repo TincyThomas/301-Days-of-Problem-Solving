@@ -1,0 +1,5 @@
+def pos_com(num):
+    return 2 ** num                             # switch has only two possibility either ON otherwise OFF, so answer will be always 2 raise to num.
+
+
+print(pos_com(3))
