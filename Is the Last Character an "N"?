@@ -1,0 +1,5 @@
+def is_last_character_n(word):
+    return True if word[len(word) - 1] == "n" else False                          # basic idea behind is list comprehension
+
+
+print(is_last_character_n("Pietn"))
