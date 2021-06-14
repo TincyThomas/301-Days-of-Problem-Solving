@@ -1,0 +1,10 @@
+def print_list(n):
+    result = []
+    i = 1
+    while i <= n:
+        result = result + [i]                       # append wont work here.. so similar purpose is fullfilled by adding every element to main list
+        i = i+1                                     # incrementing value of i
+    return result
+
+
+print(print_list(7))                                # Function calling and printing
