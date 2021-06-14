@@ -1,0 +1,9 @@
+def to_number_list(lst):
+    result=[]
+    for i in lst:
+        i = eval(i)                                   # eval() will take string expression and return int
+        result = result +[i]                          # added to empty list
+    return result
+
+
+print(to_number_list(["9.4", "4.2"]))                 # Function calling and printing
