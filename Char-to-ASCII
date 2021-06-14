@@ -1,0 +1,5 @@
+def ctoa(char):
+    return ord(char)                    # ord() returns ASCII value of passed char
+
+
+print(ctoa("["))                        # Printing
