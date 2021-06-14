@@ -1,0 +1,5 @@
+def long_burp(num):
+    return "Bu" + "r" * num + "p"                         # First string Bu and last string p is fixed....count of r in middle is changing depending upon num 
+
+
+print(long_burp(2))                                       # Function calling and printing
