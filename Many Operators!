@@ -1,0 +1,12 @@
+def operate(num1, num2, operator):
+    if operator =="+":                  # checking for + operator
+        return num1+num2
+    elif operator =="-":                # checking for - operator
+        return num1-num2
+    elif operator =="/":                # checking for / operator
+        return num1/num2
+    elif operator =="*":                # checking for * operator
+        return num1*num2
+
+
+print(operate(1, 2, "+"))               # Function calling and printing                    
