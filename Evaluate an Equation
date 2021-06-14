@@ -1,0 +1,5 @@
+def eq(evaluate):
+    return eval(evaluate)                     # using built-in function eval which returns output in integer format taking string input
+
+
+print(eq("3+2-4"))
