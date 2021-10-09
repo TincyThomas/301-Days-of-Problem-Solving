@@ -1,0 +1,7 @@
+def multiply_nums(nums):
+	a = 1
+	for i in nums:
+		if i.isdigit():
+			a = a * int(i)
+	return a
+print(multiply_nums("2, 3"))
